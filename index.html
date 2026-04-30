@@ -1,11 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Portfolio - DHÉ Sylvain</title>
 </head>
 <body>
-    <p>Hello world</p>
+
+<header>
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#apropos">À propos</a>
+    <a href="#stages">Stages</a>
+    <a href="#projets">Projets</a>
+    <a href="#competences">Compétences</a>
+    <a href="#veille">Veille</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="accueil">
+  <h1>Bienvenue sur mon portfolio</h1>
+  <p style="text-align:center;">Je suis DHÉ Sylvain, développeur web passionné.</p>
+</section>
+
+<section id="apropos">
+  <h2>À propos</h2>
+  <p>Voici mon parcours</p>
+  <p><strong>CV : </strong><a href="assets/CV_2025.pdf" class="btn-cv">📄 CV DHÉ Sylvain</a></p>
+</section>
+
+<section id="stages">
+  <h2>Stages</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Stage 1</h3>
+      <p>Description du stage.</p>
+    </div>
+  </div>
+</section>
+
+<section id="projets">
+  <h2>Projets</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Projet 1</h3>
+      <p>Description + lien GitHub</p>
+    </div>
+  </div>
+</section>
+
+<section id="competences">
+  <h2>Compétences</h2>
+  <ul>
+    <li>HTML / CSS</li>
+    <li>JavaScript</li>
+    <li>Frameworks</li>
+  </ul>
+</section>
+
+<section id="veille">
+  <h2>Veille Technologique</h2>
+  <p>Partage ici tes recherches et outils de veille.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <form>
+    <input type="text" placeholder="Nom" required>
+    <input type="email" placeholder="Email" required>
+    <textarea placeholder="Message" rows="5" required></textarea>
+    <button type="submit">Envoyer</button>
+  </form>
+  <p style="text-align:center;">Ou <a href="#">LinkedIn</a></p>
+</section>
+
+<footer>
+  <p>© 2026 - Mon Portfolio</p>
+</footer>
+
 </body>
 </html>

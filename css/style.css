@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  background: linear-gradient(135deg, #10b943 0%, #024630 100%);
   color: white;
   padding: 1rem 0;
   position: sticky;
@@ -61,7 +61,7 @@ section.active {
 }
 
 h1, h2 {
-  color: #10b981;
+  color: #10b943;
   margin: 1.5rem 0 1rem 0;
 }
 
@@ -82,7 +82,7 @@ h1, h2 {
 
 .card {
   background: #f9f9f9;
-  border-left: 4px solid #10b981;
+  border-left: 4px solid #10b943;
   padding: 1.5rem;
   margin: 1rem 0;
   border-radius: 4px;
@@ -123,7 +123,7 @@ h1, h2 {
   margin-right: 1rem;
   margin-top: 1rem;
   padding: 0.5rem 1rem;
-  background: #10b981;
+  background: #10b943;
   color: white;
   text-decoration: none;
   border-radius: 4px;
@@ -131,7 +131,7 @@ h1, h2 {
 }
 
 .project-info a:hover {
-  background: #059669;
+  background: #024630;
 }
 
 .skills {
@@ -142,7 +142,7 @@ h1, h2 {
 }
 
 .skill-tag {
-  background: #10b981;
+  background: #10b943;
   color: white;
   padding: 0.75rem;
   border-radius: 4px;
@@ -165,7 +165,7 @@ input, textarea {
 }
 
 button {
-  background: #10b981;
+  background: #10b943;
   color: white;
   padding: 0.75rem 2rem;
   border: none;
@@ -176,7 +176,7 @@ button {
 }
 
 button:hover {
-  background: #059669;
+  background: #024630;
 }
 
 footer {

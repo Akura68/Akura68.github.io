@@ -13,6 +13,7 @@
       <div>
         <a href="#" onclick="showSection('home')">Accueil</a>
         <a href="#" onclick="showSection('about')">À propos</a>
+        <a href="#" onclick="showSection('parcours')">Parcours</a>
         <a href="#" onclick="showSection('stages')">Stages</a>
         <a href="#" onclick="showSection('projects')">Projets</a>
         <a href="#" onclick="showSection('skills')">Compétences</a>
@@ -46,6 +47,45 @@
       <div class="card">
         <h3>CV</h3>
         <p><a href="assets/CV_2025.pdf" style="color: #10b943; text-decoration: none;">Télécharger mon CV (PDF)</a></p>
+      </div>
+    </section>
+
+    <!-- Parcours -->
+    <section id="parcours">
+      <h2>Mon Parcours</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Baccalauréat Technologique</h3>
+            <p class="timeline-date">2021 - 2024</p>
+            <p>Spécialité Sciences et Technologies de l'Informatique</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Ecole indépendante</h3>
+            <p class="timeline-date">15/07/2024 - 15/08/2024</p>
+            <p>Piscine pour école 42 Mulhouse</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>BTS Services Informatiques aux Organisations</h3>
+            <p class="timeline-date">2024 - 2026</p>
+            <p>Option Solutions logicielles et applications métier</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Salarié en entreprise</h3>
+            <p class="timeline-date">2026 - Actuel</p>
+            <p>VISION ENTREPRISE - Horbourg-Wihr</p>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -160,20 +200,8 @@
     </section>
   </div>
   <footer>
-    <p>&copy; 2026 Akura68. Tous droits réservés.</p>
+    <p>&copy; 2026 Sylvain DHÉ. Tous droits réservés.</p>
   </footer>
-  <script>
-    function showSection(sectionId) {
-      // Masquer toutes les sections
-      const sections = document.querySelectorAll('section');
-      sections.forEach(section => section.classList.remove('active'));
-      
-      // Afficher la section demandée
-      document.getElementById(sectionId).classList.add('active');
-      
-      // Scroll vers le haut
-      window.scrollTo(0, 0);
-    }
-  </script>
+  <script src="index.js"></script>
 </body>
 </html>
